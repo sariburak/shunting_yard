@@ -79,3 +79,7 @@ typedef struct data_type data_type;
   So the myArr above repserents the following expression: 
   <pre>2*(2+3)</pre>
   </p>
+<p>
+<strong>Two important explanations:</strong> Erroneous inputs are NOT checked for simplicity (For example: "6+((2)") and elements are stored NOT as data_type variables but as data_type* variables (as pointers) to be able to specify the end of the array using NULL.
+  
+  </p>
