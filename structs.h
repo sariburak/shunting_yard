@@ -20,7 +20,7 @@ void print_data_type(data_type *data){
         }else if(data->type == 3){
             printf("/");
         }else if(data->type == 4){
-            printf("mod");
+            printf("%c", '%');
         }else if(data->type == 5){
             printf(")");
         }else if(data->type == 6){
