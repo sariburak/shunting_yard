@@ -9,6 +9,7 @@ struct data_type{
 typedef struct data_type data_type;
 
 void print_data_type(data_type *data){
+    //Prints the given variable of the type "data_type"
     if(data->type == 0){
             printf("+");
         }else if(data->type == 7){
