@@ -60,7 +60,7 @@ typedef struct data_type data_type;
   The variable myData1 represents a plus because its type is PLUS.<strong> Value attributes are only initialized for variables whose types are NUM. </strong>Therefore, the value of the variable myData1 contains trash data. However, both the type and the value attributes of the variable myData2 are intialized because the type of the variable myData2 is NUM.<br>
   
   
-  When variables of type "data_type" are put into an array, that is when they start to repserent a fully equation:
+  When variables of type "data_type" are put into an array, that is when they start to repserent a fully expression:
 </p>
   
 <pre>
