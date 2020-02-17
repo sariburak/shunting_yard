@@ -31,6 +31,7 @@ int is_stack_empty(struct Stack *head){
 }
 
 void print_stack(struct Stack *head){
+    //Prints given stack from top to bottom.
     struct Stack *curr = head;
     if(is_stack_empty(head)){
         printf("Stack is empty!\n");
