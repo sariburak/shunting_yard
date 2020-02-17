@@ -56,6 +56,7 @@ struct QNode *deQueue(struct Queue *q)
 } 
 
 void print_queue(struct Queue *q){
+    //Prints the given queue from front to rear.
     struct QNode *curr;
     curr = q -> front;
     while(curr != q -> rear){
